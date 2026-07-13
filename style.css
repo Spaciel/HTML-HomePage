@@ -1,6 +1,15 @@
-body{
+head, body{
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background: url("https://visualwilderness.com/wp-content/uploads/2015/12/Renewalvw.jpg");
+
 }
+
+
 
 :root{
     --color-1 : rgba(22, 142, 255, 0.144);
@@ -9,6 +18,8 @@ body{
 }
 
 .mm-widget__wrap, .mm-widget__color-light, .mm-widget__bg-primary, .mm-widget__horizontal{
+    display: none;
+    width: 900px;
     user-select: none;
     background: 
         url(src/ReflectionsBackground.png) ,
@@ -26,5 +37,5 @@ body{
     box-shadow: 
         2px 5px 10px 0px var(--color-1-Light) inset, 
         -2px -5px 10px 0px var(--color-1-Dark) inset,
-        -0px -0px 20px 0px var(--color-1-Dark);
+        -0px -0px 20px 0px #1d283f91;
 }
