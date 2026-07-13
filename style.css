@@ -10,13 +10,17 @@ body{
 
 .mm-widget__wrap, .mm-widget__color-light, .mm-widget__bg-primary, .mm-widget__horizontal{
     background: 
-        url(/src/ReflectionsBackground.png),
+        url(/src/ReflectionsBackground.png) ,
+            radial-gradient(circle at left top,
+      #ffffffbe 0%, 
+      #ffffffa6 10%, 
+      #ffffff00 50%, 
+      #ffffff00 100%),
         var(--color-1)!important;
 
-
+    background-size: 150%, 100%!important;
 
     backdrop-filter: blur(20px);
-
     
     box-shadow: 
         2px 5px 10px 0px var(--color-1-Light) inset, 
