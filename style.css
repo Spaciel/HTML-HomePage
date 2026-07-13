@@ -9,8 +9,9 @@ body{
 }
 
 .mm-widget__wrap, .mm-widget__color-light, .mm-widget__bg-primary, .mm-widget__horizontal{
+    user-select: none;
     background: 
-        url(/src/ReflectionsBackground.png) ,
+        url(src/ReflectionsBackground.png) ,
             radial-gradient(circle at left top,
       #ffffffbe 0%, 
       #ffffffa6 10%, 
